@@ -11,7 +11,6 @@ client.once('ready', () => {
 	console.log("Connecté !")
 });
 
-console.log(process.env.RIOT_API_KEY)
 
 const rest = new REST({ version: '9' }).setToken(process.env.DISCORD_TOKEN);
 
